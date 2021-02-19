@@ -43,6 +43,7 @@ body {
 {
     display:flex;
     flex-direction: column;
+    padding-bottom: 50px;
     background-color:$colour-background-light;
     text-align: center;
     font-family: 'Roboto', sans-serif;
@@ -69,4 +70,67 @@ body {
 .recherche-bouton h2
 {
     font-size: 1rem;
+}
+.recherche-bouton {
+    padding-top: 20px;
+}
+.fonctionnement
+{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.titre
+{
+    font-family: 'Roboto', sans-serif;
+    margin-left: 20px;
+}
+.nchoix
+{
+    display :flex;
+    background:$colour-primary;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    font-family: 'Roboto', sans-serif;
+    vertical-align: middle;
+    width: 30px;
+    border-radius: 100%;
+    position: relative;
+    top: 23px;
+    right: 0;
+    left: -10px;
+    bottom: -10px;
+        h2 {
+            color: white;
+        }
+
+}
+.choix
+{
+    background: $colour-background-light;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 80px;
+    box-shadow: 4px 4px 6px $colour-shadow;
+    border-radius: 30px;
+    margin-bottom: 20px;
+        h2
+        {
+            font-size: 1rem;
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+        }
+}
+.nchoix-texte
+{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    i  {
+        margin-right: 20px;
+        font-size: 1.5rem;
+        color: gray;
+    }
 }
