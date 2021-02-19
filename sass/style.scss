@@ -49,7 +49,24 @@ body {
     justify-content: center;
     align-content: center;
     h2 {
-        font-weight: 100;
+        font-weight: 400;
         font-size: 1.2rem;
     }
+}
+
+.bouton
+{
+    background: $colour-secondary;
+    background: linear-gradient($colour-secondary, $colour-primary);
+    border-radius: 30px;
+    padding: 2px 30px;
+    color:#ffffff;
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    text-align: center;
+}
+.recherche-bouton h2
+{
+    font-size: 1rem;
 }

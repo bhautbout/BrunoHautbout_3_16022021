@@ -74,7 +74,24 @@ body {
 }
 
 .recherche h2 {
-  font-weight: 100;
+  font-weight: 400;
   font-size: 1.2rem;
+}
+
+.bouton {
+  background: #FF79DA;
+  background: -webkit-gradient(linear, left top, left bottom, from(#FF79DA), to(#9356DC));
+  background: linear-gradient(#FF79DA, #9356DC);
+  border-radius: 30px;
+  padding: 2px 30px;
+  color: #ffffff;
+  display: inline-block;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  text-align: center;
+}
+
+.recherche-bouton h2 {
+  font-size: 1rem;
 }
 /*# sourceMappingURL=style.css.map */
