@@ -2,7 +2,7 @@
 body {
     margin: 0;
 }
-.logo
+.zone-logo
 {
     background-color: white;
     display: flex;
@@ -12,10 +12,15 @@ body {
     font-size: 1rem;
     font-style: italic;
         h1 {
-            margin: 0;
-            font-family: 'Shrikhand', cursive;
-            font-weight: normal;
+            margin: 0;    
         }
+}
+.logo
+{
+    font-size: 1rem;
+    font-style: italic;
+    font-family: 'Shrikhand', cursive;
+    font-weight: normal;
 }
 .localisation
 {
@@ -133,4 +138,98 @@ body {
         font-size: 1.5rem;
         color: gray;
     }
+}
+.liste-restaurants
+{
+    background: $colour-background-light;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+figure
+{
+    margin: 0;
+}
+figure img
+{
+    height: 200px;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.restaurant
+{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    background-color: white;
+    img {
+        object-fit: cover;
+    }
+}
+figcaption
+{
+    font-family: 'Roboto', sans-serif;
+    padding-left: 10px;
+    padding-top: 10px;
+        h2 {
+            font-size: 1.2rem;
+            margin: 0;
+        }
+        h3 {
+            font-size: 1rem;
+            font-weight: lighter;
+            margin: 0;
+        }
+}
+.footer
+{
+    background-color: #353535;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+        h2 {
+            font-family: 'Roboto', sans-serif;
+            font-size: 1.2rem;
+            color: white;
+            margin: 0;
+        }
+        i {
+            color: white;
+            padding-right: 10px;
+        }
+        .logo {
+            font-size: 1rem;
+            color: white;
+            width: 100%;
+        }
+        #proposer
+        {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            line-height: 2rem;
+        }
+        #partenaire
+        {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            line-height: 2rem;
+        }
+        #mentions-legales
+        {
+            display: flex;
+            justify-content: flex-start;
+            line-height: 2rem;
+        }
+        #contact
+        {
+            display: flex;
+            justify-content: flex-start;
+            line-height: 2rem;
+        }
 }
