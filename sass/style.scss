@@ -21,6 +21,7 @@ body {
             margin: 0;    
         }
 }
+
 #logo
 {
     font-size: 1rem;
@@ -115,8 +116,7 @@ body {
         h2 {
             color: white;
         }
-
-}
+    }
 .choix
 {
     background: $colour-background-light;
@@ -238,4 +238,55 @@ figcaption
             justify-content: flex-start;
             line-height: 2rem;
         }
+}
+/*PAGES RESTAURANTS*/
+.header-restaurant
+{
+    background-color: white;
+    display: flex;
+    height: 50px;
+    margin-top: 10px;
+    justify-content: center;
+}
+.logo__restaurant
+{
+    background-color: white;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    h1 {
+        margin: 0;
+    }
+}
+#logo__restaurant
+{
+    font-size: 1rem;
+    font-style: italic;
+    font-family: 'Shrikhand', cursive;
+    font-weight: normal;
+    display: flex;
+    align-items: center;
+        i {
+            position: absolute;
+            top: 27px;
+            left: 36px;
+        }
+}
+.fond-restaurant
+{
+        img
+        {
+            object-fit: cover;
+            height: 300px;
+            width: 100%;
+        }
+}
+.restaurant-menu
+{
+    background-color: $colour-background-light;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    position: relative;
+    top: -50px;
+    padding-top: 20px;
 }
