@@ -310,6 +310,8 @@ figcaption
     padding-left: 15px;
     h2 {
         font-weight: lighter;
+        border-bottom: 3px solid $colour-tertiary;
+        width: 50px;
     }
 }
 .fa-heart
@@ -354,6 +356,8 @@ figcaption
     padding-left: 15px;
     h2 {
         font-weight: lighter;
+        border-bottom: 3px solid $colour-tertiary;
+        width: 50px;
     }
 }
 .plats
@@ -387,6 +391,8 @@ figcaption
     padding-left: 15px;
     h2 {
         font-weight: lighter;
+        border-bottom: 3px solid $colour-tertiary;
+        width: 50px;
     }
 }
 .desserts
