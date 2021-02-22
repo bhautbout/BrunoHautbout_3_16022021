@@ -460,3 +460,8 @@ figcaption
 {
     display: flex;
 }
+
+a:visited
+{
+    color: $colour-primary;
+}

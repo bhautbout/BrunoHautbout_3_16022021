@@ -601,4 +601,8 @@ figcaption h3 {
   display: -ms-flexbox;
   display: flex;
 }
+
+a:visited {
+  color: #9356DC;
+}
 /*# sourceMappingURL=style.css.map */
