@@ -22,7 +22,7 @@ body {
         }
 }
 
-#logo
+#logo-header
 {
     font-size: 1rem;
     font-style: italic;
@@ -61,6 +61,10 @@ body {
     font-family: 'Roboto', sans-serif;
     justify-content: center;
     align-content: center;
+    p {
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
     h2 {
         font-weight: 400;
         font-size: 1.2rem;
@@ -96,6 +100,10 @@ body {
 {
     font-family: 'Roboto', sans-serif;
     margin-left: 20px;
+    p {
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
 }
 .nchoix
 {
@@ -211,10 +219,12 @@ figcaption
             color: white;
             padding-right: 10px;
         }
-        #logo {
-            font-size: 1rem;
+        #logo-footer {
+            font-size: 1.5rem;
             color: white;
             width: 100%;
+            font-style: italic;
+            font-family: 'Shrikhand', cursive;
         }
         #proposer
         {
@@ -258,7 +268,7 @@ figcaption
     width: 100%;
     justify-content: center;
     display: flex;
-    h1 {
+    p {
         margin: 0;
     }
 }
