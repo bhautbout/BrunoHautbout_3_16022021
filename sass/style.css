@@ -568,4 +568,37 @@ figcaption h3 {
   -ms-flex-line-pack: center;
       align-content: center;
 }
+
+.bouton-nouveau {
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  height: 100%;
+  background-color: #99E2D0;
+  position: relative;
+  right: 122px;
+  bottom: -20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.bouton-nouveau h2 {
+  margin: 0;
+  font-family: 'roboto', sans-serif;
+  font-size: 1rem;
+  color: #1f8d6e;
+}
+
+.image-nouveau {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
 /*# sourceMappingURL=style.css.map */

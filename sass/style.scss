@@ -435,3 +435,28 @@ figcaption
     display: grid;
     align-content: center;
 }
+.bouton-nouveau
+{
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    height: 100%;
+    background-color: $colour-tertiary;
+    position: relative;
+    right: 122px;
+    bottom: -20px;
+    display: flex;
+    flex-direction: row;
+    h2 {
+        margin: 0;
+        font-family: 'roboto', sans-serif;
+        font-size: 1rem;
+        color: #1f8d6e;
+    }
+}
+.image-nouveau
+{
+    display: flex;
+}
