@@ -178,8 +178,12 @@ figure img
 figcaption
 {
     font-family: 'Roboto', sans-serif;
+    display: flex;
     padding-left: 10px;
+    padding-right: 15px;
+    padding-bottom: 10px;
     padding-top: 10px;
+    justify-content: space-between;
         h2 {
             font-size: 1.2rem;
             margin: 0;

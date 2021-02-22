@@ -235,8 +235,16 @@ figure img {
 
 figcaption {
   font-family: 'Roboto', sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   padding-left: 10px;
+  padding-right: 15px;
+  padding-bottom: 10px;
   padding-top: 10px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 figcaption h2 {
