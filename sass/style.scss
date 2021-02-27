@@ -1,57 +1,13 @@
 @import "utils/variables";
 @import "./composants/menu";
-body {
-    margin: 0;
-}
-.header
-{
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    height: 50px;
-    margin-top: 10px;
-    justify-content: center;
-}
-.logo
-{
-    background-color: white;
-    width: 100%;
-    justify-content: center;
-    display: flex;
-        h1 {
-            margin: 0;    
-        }
-}
+@import "layouts/header";
+@import "layouts/footer";
+@import "./base/body";
+@import "./composants/_boutons";
+@import "./composants/titre";
 
-#logo-header
-{
-    font-size: 1rem;
-    font-style: italic;
-    font-family: 'Shrikhand', cursive;
-    font-weight: normal;
-}
-.localisation
-{
-    display: flex;
-    height: 50px;
-    justify-content: center;
-    font-size: 0.7rem;
-    flex-flow: wrap-reverse;
-    align-content: center;
-    border-top: 2px solid $colour-line;
-    align-items: baseline;
-    background-color: $colour-background-dark;
-        h2 {
-            margin: 0;
-            font-family: 'Roboto', sans-serif;
-            font-weight: 400;
-        }
-        .fas {
-            font-size: 1rem;
-            margin-right: 20px;
-        }
 
-}
+
 .recherche
 {
     display:flex;
@@ -72,18 +28,7 @@ body {
     }
 }
 
-.bouton
-{
-    background: $colour-secondary;
-    background: linear-gradient($colour-secondary, $colour-primary);
-    border-radius: 30px;
-    padding: 2px 30px;
-    color:#ffffff;
-    display: inline-block;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-    text-align: center;
-}
+
 .recherche-bouton h2
 {
     font-size: 1rem;
@@ -193,6 +138,8 @@ figcaption
     padding-bottom: 10px;
     padding-top: 10px;
     justify-content: space-between;
+    align-items: center;
+
         h2 {
             font-size: 1.2rem;
             margin: 0;
@@ -203,57 +150,7 @@ figcaption
             margin: 0;
         }
 }
-.footer
-{
-    background-color: #353535;
-    padding-left: 30px;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-        h2 {
-            font-family: 'Roboto', sans-serif;
-            font-size: 1.2rem;
-            color: white;
-            margin: 0;
-        }
-        i {
-            color: white;
-            padding-right: 10px;
-        }
-        #logo-footer {
-            font-size: 1.5rem;
-            color: white;
-            width: 100%;
-            font-style: italic;
-            font-family: 'Shrikhand', cursive;
-        }
-        #proposer
-        {
-            display: flex;
-            align-items: center;
-            justify-content: flex-start;
-            line-height: 2rem;
-        }
-        #partenaire
-        {
-            display: flex;
-            align-items: center;
-            justify-content: flex-start;
-            line-height: 2rem;
-        }
-        #mentions-legales
-        {
-            display: flex;
-            justify-content: flex-start;
-            line-height: 2rem;
-        }
-        #contact
-        {
-            display: flex;
-            justify-content: flex-start;
-            line-height: 2rem;
-        }
-}
+
 /*PAGES RESTAURANTS*/
 .header-restaurant
 {
@@ -305,19 +202,9 @@ figcaption
     display: flex;
     flex-direction: column;
     font-family: 'Roboto', sans-serif;
-    top: -50px;
-    padding-top: 20px;
+    margin-top: -38px;
 }
-#restaurant-titre
-{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    font-family: 'Shrikhand', cursive;
-    font-style: italic;
-    padding-left: 15px;
-    padding-right: 30px;
-}
+
 #titre-entree
 {
     font-family: 'Roboto', sans-serif;
@@ -420,33 +307,17 @@ figcaption
     display: grid;
     align-content: center;
 }
-.bouton-nouveau
-{
-    padding-right: 20px;
-    padding-left: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border-radius: 5px;
-    height: 100%;
-    background-color: $colour-tertiary;
-    position: relative;
-    right: 122px;
-    bottom: -20px;
-    display: flex;
-    flex-direction: row;
-    h2 {
-        margin: 0;
-        font-family: 'roboto', sans-serif;
-        font-size: 1rem;
-        color: #1f8d6e;
-    }
-}
+
 .image-nouveau
 {
     display: flex;
 }
 
-a:visited
+#restaurant-titre
 {
-    color: $colour-primary;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
 }

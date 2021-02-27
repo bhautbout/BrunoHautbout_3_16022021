@@ -67,12 +67,36 @@
   margin: 0;
 }
 
-body {
-  margin: 0;
-}
-
 .header {
   background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  height: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "Shrikhand", cursive;
+  font-size: 1rem;
+}
+
+.header .fa-arrow-left {
+  left: 23px;
+  position: absolute;
+}
+
+.footer {
+  background-color: #353535;
+  padding-left: 30px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -80,33 +104,66 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  height: 50px;
-  margin-top: 10px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  line-height: 1.5rem;
+  color: white;
 }
 
-.logo {
-  background-color: white;
+.footer h2 {
+  font-size: 1rem;
   width: 100%;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  font-style: italic;
+  font-family: 'Shrikhand', cursive;
 }
 
-.logo h1 {
+.footer h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
   margin: 0;
 }
 
-#logo-header {
-  font-size: 1rem;
-  font-style: italic;
-  font-family: 'Shrikhand', cursive;
-  font-weight: normal;
+.footer i {
+  padding-right: 10px;
+}
+
+.footer #proposer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.footer #partenaire {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+body {
+  margin: 0;
+}
+
+a:visited {
+  color: #9356DC;
+}
+
+.bouton {
+  background: #FF79DA;
+  background: -webkit-gradient(linear, left top, left bottom, from(#FF79DA), to(#9356DC));
+  background: linear-gradient(#FF79DA, #9356DC);
+  border-radius: 30px;
+  padding: 2px 30px;
+  color: #ffffff;
+  display: inline-block;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  text-align: center;
 }
 
 .localisation {
@@ -142,6 +199,33 @@ body {
   margin-right: 20px;
 }
 
+.bouton-nouveau {
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  height: 100%;
+  background-color: #99E2D0;
+  position: relative;
+  right: 122px;
+  bottom: -20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.bouton-nouveau h2 {
+  margin: 0;
+  font-family: 'roboto', sans-serif;
+  font-size: 1rem;
+  color: #1f8d6e;
+}
+
 .recherche {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -169,19 +253,6 @@ body {
 .recherche h2 {
   font-weight: 400;
   font-size: 1.2rem;
-}
-
-.bouton {
-  background: #FF79DA;
-  background: -webkit-gradient(linear, left top, left bottom, from(#FF79DA), to(#9356DC));
-  background: linear-gradient(#FF79DA, #9356DC);
-  border-radius: 30px;
-  padding: 2px 30px;
-  color: #ffffff;
-  display: inline-block;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
-  text-align: center;
 }
 
 .recherche-bouton h2 {
@@ -324,6 +395,9 @@ figcaption {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 figcaption h2 {
@@ -335,86 +409,6 @@ figcaption h3 {
   font-size: 1rem;
   font-weight: lighter;
   margin: 0;
-}
-
-.footer {
-  background-color: #353535;
-  padding-left: 30px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-
-.footer h2 {
-  font-family: 'Roboto', sans-serif;
-  font-size: 1.2rem;
-  color: white;
-  margin: 0;
-}
-
-.footer i {
-  color: white;
-  padding-right: 10px;
-}
-
-.footer #logo-footer {
-  font-size: 1.5rem;
-  color: white;
-  width: 100%;
-  font-style: italic;
-  font-family: 'Shrikhand', cursive;
-}
-
-.footer #proposer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  line-height: 2rem;
-}
-
-.footer #partenaire {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  line-height: 2rem;
-}
-
-.footer #mentions-legales {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  line-height: 2rem;
-}
-
-.footer #contact {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  line-height: 2rem;
 }
 
 /*PAGES RESTAURANTS*/
@@ -484,11 +478,10 @@ figcaption h3 {
       -ms-flex-direction: column;
           flex-direction: column;
   font-family: 'Roboto', sans-serif;
-  top: -50px;
-  padding-top: 20px;
+  margin-top: -38px;
 }
 
-#restaurant-titre {
+#restaurant-nom {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -620,40 +613,23 @@ figcaption h3 {
       align-content: center;
 }
 
-.bouton-nouveau {
-  padding-right: 20px;
-  padding-left: 20px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  border-radius: 5px;
-  height: 100%;
-  background-color: #99E2D0;
-  position: relative;
-  right: 122px;
-  bottom: -20px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-}
-
-.bouton-nouveau h2 {
-  margin: 0;
-  font-family: 'roboto', sans-serif;
-  font-size: 1rem;
-  color: #1f8d6e;
-}
-
 .image-nouveau {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-a:visited {
-  color: #9356DC;
+#restaurant-titre {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 /*# sourceMappingURL=style.css.map */
