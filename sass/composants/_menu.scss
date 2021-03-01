@@ -48,3 +48,103 @@
         margin: 0;
     }
 }
+.plats
+{
+    background-color: white;
+    border-radius: 15px;
+    font-weight: 100;
+    margin: 10px;
+    display: flex;
+    &__detail
+    {
+        width: 90%;
+        padding: 10px;
+        transform-origin: left;
+        transform:scaleX(1.1);
+        transition: transform 800ms;
+    }
+    &__bouton
+    {
+        background-color: $colour-tertiary;
+        width: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+        transform-origin: right;
+        transform:scaleX(0);
+        transition: transform 800ms;
+    }
+    &:hover &__detail, &:hover &__bouton
+    {
+        transform:scaleX(1);
+        
+    }
+
+    h2 {
+        font-size: 1.2rem;
+        margin: 0;
+    }
+    h3
+    {
+        font-size: 0.8rem;
+        margin: 0;
+        font-weight: 300;
+    }
+    h4 {
+        font-size: 0.8rem;
+        font-weight: bold;
+        margin: 0;
+    }
+}
+.desserts
+{
+    background-color: white;
+    border-radius: 15px;
+    font-weight: 100;
+    margin: 10px;
+    display: flex;
+    &__detail
+    {
+        width: 90%;
+        padding: 10px;
+        transform-origin: left;
+        transform:scaleX(1.1);
+        transition: transform 800ms;
+    }
+    &__bouton
+    {
+        background-color: $colour-tertiary;
+        width: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+        transform-origin: right;
+        transform:scaleX(0);
+        transition: transform 800ms;
+    }
+    &:hover &__detail, &:hover &__bouton
+    {
+        transform:scaleX(1);
+        
+    }
+
+    h2 {
+        font-size: 1.2rem;
+        margin: 0;
+    }
+    h3
+    {
+        font-size: 0.8rem;
+        margin: 0;
+        font-weight: 300;
+    }
+    h4 {
+        font-size: 0.8rem;
+        font-weight: bold;
+        margin: 0;
+    }
+}
