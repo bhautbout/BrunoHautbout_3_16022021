@@ -1,6 +1,22 @@
 body {
     margin: 0;
 }
+
+.fa-check-circle
+{
+    color:white;
+}
+.fa-arrow-left
+{
+    color: black;
+    left: 23px;
+    top: 27px;
+    position: absolute;
+}
+a:link
+{
+    text-decoration: none;
+}
 a:visited
 {
     color: $colour-primary;

@@ -7,6 +7,7 @@
     flex-wrap: wrap;
     line-height: 1.5rem;
     color: white;
+
         h2 {
         font-size: 1rem;
         width: 100%;
@@ -18,17 +19,22 @@
             font-size: 1rem;
             margin: 0;
         }
-        i {
-            padding-right: 10px;
-        }
         #proposer
         {
             display: flex;
             align-items: baseline;
+            i
+            {
+                padding-right: 15px;
+            }
         }
         #partenaire
         {
             display: flex;
             align-items: baseline;
+                i
+                {
+                    padding-right: 8px;
+                }
         }
 }

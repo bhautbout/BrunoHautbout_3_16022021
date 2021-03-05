@@ -1,14 +1,24 @@
 .bouton
 {
-    background: $colour-secondary;
+    
     background: linear-gradient($colour-secondary, $colour-primary);
     border-radius: 30px;
+    box-shadow: 8px 7px 20px 0px rgba(169,164,164,0.47);
     padding: 2px 30px;
     color:#ffffff;
     display: inline-block;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     text-align: center;
+    transition: box-shadow 500ms;
+    &:hover
+    {
+        box-shadow: 8px 7px 11px 0px rgba(84, 83, 83, 0.47);
+        background: #FF79DA;
+        
+        
+        
+    }
 }
 .localisation
 {
@@ -65,8 +75,8 @@
     padding-bottom: 90px;
     padding-right: 70px;
     padding-left: 70px;
-    display: grid;
-    align-content: center;
+    display: flex;
+    justify-content: center;
         h2 {
             font-size: 1rem;
         }
