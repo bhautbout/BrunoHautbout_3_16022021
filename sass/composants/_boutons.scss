@@ -85,3 +85,22 @@
 {
     display: flex;
 }
+.coeur
+{
+    .fas
+        {
+            display: none;
+        }
+        &:hover
+        {
+            .fa-heart
+            {
+                display: none;
+            }
+            .fas
+            {
+                display: initial;
+                color: $colour-secondary;
+            }
+        }
+}

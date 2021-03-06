@@ -420,6 +420,19 @@ a:visited {
   display: flex;
 }
 
+.coeur .fas {
+  display: none;
+}
+
+.coeur:hover .fa-heart {
+  display: none;
+}
+
+.coeur:hover .fas {
+  display: initial;
+  color: #ff79da;
+}
+
 .restaurant-nom {
   display: -webkit-box;
   display: -ms-flexbox;
