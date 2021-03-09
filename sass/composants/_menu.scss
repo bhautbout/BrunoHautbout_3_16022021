@@ -5,6 +5,8 @@
     font-weight: 100;
     margin: 10px;
     display: flex;
+    animation:apparition 3s;
+    transition: opacity 500ms;
     &__detail
     {
         width: 90%;
@@ -48,6 +50,15 @@
         margin: 0;
     }
 }
+@keyframes apparition
+{
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
 .plats
 {
     background-color: white;
@@ -55,6 +66,8 @@
     font-weight: 100;
     margin: 10px;
     display: flex;
+    animation:apparition 10s;
+    transition: opacity 500ms;
     &__detail
     {
         width: 90%;
@@ -105,6 +118,8 @@
     font-weight: 100;
     margin: 10px;
     display: flex;
+    animation:apparition 17s;
+    transition: opacity 500ms;
     &__detail
     {
         width: 90%;
