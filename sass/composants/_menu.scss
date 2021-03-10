@@ -5,8 +5,8 @@
     font-weight: 100;
     margin: 10px;
     display: flex;
-    animation:apparition 3s;
-    transition: opacity 500ms;
+    animation:apparition 5s;
+    transition: opacity 1000ms;
     &__detail
     {
         width: 90%;
@@ -66,8 +66,8 @@
     font-weight: 100;
     margin: 10px;
     display: flex;
-    animation:apparition 10s;
-    transition: opacity 500ms;
+    animation:apparition 18s;
+    transition: opacity 10ms;
     &__detail
     {
         width: 90%;
@@ -118,8 +118,8 @@
     font-weight: 100;
     margin: 10px;
     display: flex;
-    animation:apparition 17s;
-    transition: opacity 500ms;
+    animation:apparition 25s;
+    transition: opacity 1000ms;
     &__detail
     {
         width: 90%;

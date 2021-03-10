@@ -11,7 +11,7 @@
     font-weight: 300;
     text-align: center;
     transition: box-shadow 500ms;
-    &:hover
+    &:hover, &:active
     {
         box-shadow: 8px 7px 11px 0px rgba(84, 83, 83, 0.47);
         background: #FF79DA;
