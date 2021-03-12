@@ -389,6 +389,12 @@ a:visited {
   font-size: 1.1rem;
 }
 
+@media (min-width: 768px) and (max-width: 992px) {
+  .localisation h2 {
+    font-size: 1.3rem;
+  }
+}
+
 .localisation .fas {
   font-size: 1rem;
   margin-right: 20px;
