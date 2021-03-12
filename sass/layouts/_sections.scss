@@ -26,13 +26,28 @@
     font-family: 'Roboto', sans-serif;
     justify-content: center;
     align-content: center;
+}
+.recherche-restaurant
+{
     p {
-        font-size: 1.5rem;
+        font-size: 1.7rem;
         font-weight: bold;
+        padding-left: 10px;
+        padding-right: 10px;
+        @include tablette
+        {
+            font-size: 1.9rem;
+        }
     }
     h2 {
-        font-weight: 400;
-        font-size: 1.2rem;
+        font-weight: 300;
+        font-size: 1rem;
+        padding-left: 10px;
+        padding-right: 10px;
+        @include tablette
+        {
+            font-size: 1.2rem;
+        }
     }
 }
 .fonctionnement
@@ -55,7 +70,7 @@
     width: 30px;
     border-radius: 100%;
     position: relative;
-    top: 23px;
+    top: 35px;
     right: 0;
     left: -10px;
     bottom: -10px;
@@ -72,11 +87,18 @@
     box-shadow: 4px 4px 6px $colour-shadow;
     border-radius: 30px;
     margin-bottom: 20px;
+    @include tablette
+    {
+        height: 96px;
+    }
         h2
         {
             font-size: 1rem;
             font-family: 'Roboto', sans-serif;
             margin: 0;
+            @include tablette {
+                font-size: 1.4rem;
+            }
         }
         &:hover
         {
@@ -97,6 +119,10 @@
         margin-right: 20px;
         font-size: 1.5rem;
         color: gray;
+        @include tablette
+        {
+            font-size: 2.5rem;
+        }
     }
 }
 .restaurant
@@ -150,6 +176,10 @@ figcaption
     font-family: 'Roboto', sans-serif;
     font-size: 0.8rem;
     padding-left: 15px;
+    @include desktop 
+    {
+        font-size: 1rem;
+    }
     h2 {
         font-weight: lighter;
         border-bottom: 3px solid $colour-tertiary;
@@ -170,6 +200,10 @@ figcaption
     font-family: 'Roboto', sans-serif;
     font-size: 0.8rem;
     padding-left: 15px;
+    @include desktop 
+    {
+        font-size: 1rem;
+    }
     h2 {
         font-weight: lighter;
         border-bottom: 3px solid $colour-tertiary;
@@ -191,6 +225,9 @@ figcaption
     font-family: 'Roboto', sans-serif;
     font-size: 0.8rem;
     padding-left: 15px;
+    @include desktop {
+        font-size: 1rem;
+    }
     h2 {
         font-weight: lighter;
         border-bottom: 3px solid $colour-tertiary;

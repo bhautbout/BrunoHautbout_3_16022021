@@ -59,16 +59,34 @@
   margin: 0;
 }
 
+@media (min-width: 992px) and (max-width: 1400px) {
+  .entree h2 {
+    font-size: 1.5rem;
+  }
+}
+
 .entree h3 {
   font-size: 0.8rem;
   margin: 0;
   font-weight: 300;
 }
 
+@media (min-width: 992px) and (max-width: 1400px) {
+  .entree h3 {
+    font-size: 1rem;
+  }
+}
+
 .entree h4 {
   font-size: 0.8rem;
   font-weight: bold;
   margin: 0;
+}
+
+@media (min-width: 992px) and (max-width: 1400px) {
+  .entree h4 {
+    font-size: 1rem;
+  }
 }
 
 @-webkit-keyframes apparition {
@@ -150,16 +168,34 @@
   margin: 0;
 }
 
+@media (min-width: 992px) and (max-width: 1400px) {
+  .plats h2 {
+    font-size: 1.5rem;
+  }
+}
+
 .plats h3 {
   font-size: 0.8rem;
   margin: 0;
   font-weight: 300;
 }
 
+@media (min-width: 992px) and (max-width: 1400px) {
+  .plats h3 {
+    font-size: 1rem;
+  }
+}
+
 .plats h4 {
   font-size: 0.8rem;
   font-weight: bold;
   margin: 0;
+}
+
+@media (min-width: 992px) and (max-width: 1400px) {
+  .plats h4 {
+    font-size: 1rem;
+  }
 }
 
 .desserts {
@@ -223,16 +259,34 @@
   margin: 0;
 }
 
+@media (min-width: 992px) and (max-width: 1400px) {
+  .desserts h2 {
+    font-size: 1.5rem;
+  }
+}
+
 .desserts h3 {
   font-size: 0.8rem;
   margin: 0;
   font-weight: 300;
 }
 
+@media (min-width: 992px) and (max-width: 1400px) {
+  .desserts h3 {
+    font-size: 1rem;
+  }
+}
+
 .desserts h4 {
   font-size: 0.8rem;
   font-weight: bold;
   margin: 0;
+}
+
+@media (min-width: 992px) and (max-width: 1400px) {
+  .desserts h4 {
+    font-size: 1rem;
+  }
 }
 
 .header {
@@ -257,6 +311,20 @@
   font-size: 1.2rem;
 }
 
+@media (min-width: 768px) and (max-width: 992px) {
+  .header {
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1400px) {
+  .header {
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+  }
+}
+
 .footer {
   background-color: #353535;
   padding-left: 30px;
@@ -273,20 +341,20 @@
   color: white;
 }
 
-.footer h2 {
+h2 {
   font-size: 1rem;
   width: 100%;
   font-style: italic;
   font-family: 'Shrikhand', cursive;
 }
 
-.footer h3 {
+h2 h3 {
   font-family: 'Roboto', sans-serif;
   font-size: 1rem;
   margin: 0;
 }
 
-.footer #proposer {
+h2 #proposer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -295,11 +363,11 @@
           align-items: baseline;
 }
 
-.footer #proposer i {
+h2 #proposer i {
   padding-right: 15px;
 }
 
-.footer #partenaire {
+h2 #partenaire {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -308,8 +376,16 @@
           align-items: baseline;
 }
 
-.footer #partenaire i {
+h2 #partenaire i {
   padding-right: 8px;
+}
+
+h2 .contacta:link {
+  color: white;
+}
+
+h2 .contacta:visited {
+  color: #ff79da;
 }
 
 body {
@@ -329,7 +405,6 @@ body {
 
 a:link {
   text-decoration: none;
-  color: black;
 }
 
 a:visited {
@@ -368,7 +443,6 @@ a:visited {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  font-size: 0.7rem;
   -webkit-box-orient: vertical;
   -webkit-box-direction: reverse;
       -ms-flex-flow: wrap-reverse;
@@ -386,11 +460,24 @@ a:visited {
   margin: 0;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
+  font-size: 1.1rem;
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .localisation h2 {
+    font-size: 1.3rem;
+  }
 }
 
 .localisation .fas {
-  font-size: 1rem;
+  font-size: 1.1rem;
   margin-right: 20px;
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .localisation .fas {
+    font-size: 1.3rem;
+  }
 }
 
 .bouton-nouveau {
@@ -428,6 +515,12 @@ a:visited {
   font-size: 1rem;
 }
 
+@media (min-width: 768px) and (max-width: 992px) {
+  .recherche-bouton h2 {
+    font-size: 1.4rem;
+  }
+}
+
 .commander-bouton {
   padding-top: 34px;
   padding-bottom: 90px;
@@ -443,6 +536,12 @@ a:visited {
 
 .commander-bouton h2 {
   font-size: 1rem;
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .commander-bouton h2 {
+    font-size: 1.4rem;
+  }
 }
 
 .image-nouveau {
@@ -564,9 +663,22 @@ a:visited {
 }
 
 .loading-bg .loading-spinner {
-  font-size: 150px;
+  font-size: 5rem;
+  color: #9356DC;
   -webkit-animation: loading-spinner 2s infinite;
           animation: loading-spinner 2s infinite;
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .loading-bg .loading-spinner {
+    font-size: 10rem;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1400px) {
+  .loading-bg .loading-spinner {
+    font-size: 15rem;
+  }
 }
 
 @-webkit-keyframes loading-spinner {
@@ -640,6 +752,12 @@ a:visited {
   font-size: 1.5rem;
 }
 
+@media (min-width: 992px) and (max-width: 1400px) {
+  .restaurant-nom__titre {
+    font-size: 1.9rem;
+  }
+}
+
 .titre {
   font-family: 'Roboto', sans-serif;
   margin-left: 20px;
@@ -695,14 +813,30 @@ a:visited {
       align-content: center;
 }
 
-.recherche p {
-  font-size: 1.5rem;
+.recherche-restaurant p {
+  font-size: 1.7rem;
   font-weight: bold;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
-.recherche h2 {
-  font-weight: 400;
-  font-size: 1.2rem;
+@media (min-width: 768px) and (max-width: 992px) {
+  .recherche-restaurant p {
+    font-size: 1.9rem;
+  }
+}
+
+.recherche-restaurant h2 {
+  font-weight: 300;
+  font-size: 1rem;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .recherche-restaurant h2 {
+    font-size: 1.2rem;
+  }
 }
 
 .fonctionnement {
@@ -733,7 +867,7 @@ a:visited {
   width: 30px;
   border-radius: 100%;
   position: relative;
-  top: 23px;
+  top: 35px;
   right: 0;
   left: -10px;
   bottom: -10px;
@@ -754,10 +888,22 @@ a:visited {
   margin-bottom: 20px;
 }
 
+@media (min-width: 768px) and (max-width: 992px) {
+  .choix {
+    height: 96px;
+  }
+}
+
 .choix h2 {
   font-size: 1rem;
   font-family: 'Roboto', sans-serif;
   margin: 0;
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .choix h2 {
+    font-size: 1.4rem;
+  }
 }
 
 .choix:hover {
@@ -785,6 +931,12 @@ a:visited {
   margin-right: 20px;
   font-size: 1.5rem;
   color: gray;
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .nchoix-texte i {
+    font-size: 2.5rem;
+  }
 }
 
 .restaurant {
@@ -845,6 +997,12 @@ figcaption h3 {
   padding-left: 15px;
 }
 
+@media (min-width: 992px) and (max-width: 1400px) {
+  #titre-desserts {
+    font-size: 1rem;
+  }
+}
+
 #titre-desserts h2 {
   font-weight: lighter;
   border-bottom: 3px solid #99E2D0;
@@ -862,6 +1020,12 @@ figcaption h3 {
   font-family: 'Roboto', sans-serif;
   font-size: 0.8rem;
   padding-left: 15px;
+}
+
+@media (min-width: 992px) and (max-width: 1400px) {
+  .restaurant-entree__titre {
+    font-size: 1rem;
+  }
 }
 
 .restaurant-entree__titre h2 {
@@ -887,6 +1051,12 @@ figcaption h3 {
   font-family: 'Roboto', sans-serif;
   font-size: 0.8rem;
   padding-left: 15px;
+}
+
+@media (min-width: 992px) and (max-width: 1400px) {
+  #titre-plats {
+    font-size: 1rem;
+  }
 }
 
 #titre-plats h2 {

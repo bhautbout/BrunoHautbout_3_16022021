@@ -37,17 +37,26 @@
     h2 {
         font-size: 1.2rem;
         margin: 0;
+        @include desktop {
+            font-size: 1.5rem;
+        }
     }
     h3
     {
         font-size: 0.8rem;
         margin: 0;
         font-weight: 300;
+        @include desktop {
+            font-size: 1rem;
+        }
     }
     h4 {
         font-size: 0.8rem;
         font-weight: bold;
         margin: 0;
+        @include desktop {
+            font-size: 1rem;
+        }
     }
 }
 @keyframes apparition
@@ -98,17 +107,26 @@
     h2 {
         font-size: 1.2rem;
         margin: 0;
+        @include desktop {
+            font-size: 1.5rem;
+        }
     }
     h3
     {
         font-size: 0.8rem;
         margin: 0;
         font-weight: 300;
+        @include desktop {
+            font-size: 1rem;
+        }
     }
     h4 {
         font-size: 0.8rem;
         font-weight: bold;
         margin: 0;
+        @include desktop {
+            font-size: 1rem;
+        }
     }
 }
 .desserts
@@ -150,16 +168,25 @@
     h2 {
         font-size: 1.2rem;
         margin: 0;
+        @include desktop {
+            font-size: 1.5rem;
+        }
     }
     h3
     {
         font-size: 0.8rem;
         margin: 0;
         font-weight: 300;
+        @include desktop {
+            font-size: 1rem;
+        }
     }
     h4 {
         font-size: 0.8rem;
         font-weight: bold;
         margin: 0;
+        @include desktop {
+            font-size: 1rem;
+        }
     }
 }

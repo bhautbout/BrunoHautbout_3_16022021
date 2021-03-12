@@ -1,8 +1,12 @@
 @import "utils/variables";
-@import "./composants/menu";
+@import "utils/breakpoints";
+@import "utils/media";
+@import "composants/menu";
 @import "layouts/header";
 @import "layouts/footer";
-@import "./base/body";
-@import "./composants/_boutons";
-@import "./composants/titre";
-@import "./layouts/sections";
+@import "base/body";
+@import "composants/boutons";
+@import "composants/titre";
+@import "layouts/sections";
+@import "utils/map";
+@import "utils/mixins";

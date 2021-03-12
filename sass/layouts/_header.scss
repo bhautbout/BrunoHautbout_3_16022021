@@ -10,4 +10,12 @@
     align-items: center;
     font-family: "Shrikhand", cursive;
     font-size: 1.2rem;
+    @include tablette {
+        font-size: 1.6rem;
+        margin-bottom: 20px;
+    }
+    @include desktop {
+        font-size: 1.6rem;
+        margin-bottom: 20px;
+    }
 }

@@ -15,9 +15,6 @@
     {
         box-shadow: 8px 7px 11px 0px rgba(84, 83, 83, 0.47);
         background: #FF79DA;
-        
-        
-        
     }
 }
 .localisation
@@ -25,7 +22,6 @@
     display: flex;
     height: 50px;
     justify-content: center;
-    font-size: 0.7rem;
     flex-flow: wrap-reverse;
     align-content: center;
     border-top: 2px solid $colour-line;
@@ -35,10 +31,17 @@
             margin: 0;
             font-family: 'Roboto', sans-serif;
             font-weight: 400;
+            font-size: 1.1rem;
+            @include tablette{
+                font-size: 1.3rem;
+            }
         }
         .fas {
-            font-size: 1rem;
+            font-size: 1.1rem;
             margin-right: 20px;
+            @include tablette{
+                font-size: 1.3rem;
+            }
         }
 
 }
@@ -67,6 +70,9 @@
     padding-top: 20px;
         h2 {
         font-size: 1rem;
+        @include tablette {
+            font-size: 1.4rem;
+        }
 
     }
 }
@@ -79,6 +85,9 @@
     justify-content: center;
         h2 {
             font-size: 1rem;
+            @include tablette {
+                font-size: 1.4rem;
+            }
         }
 }
 .image-nouveau
@@ -106,7 +115,6 @@
                 animation: coeurplein 1500ms infinite;
             }
         }
-
 }
 @keyframes coeurplein
 {
@@ -139,8 +147,15 @@
     animation: masque-loading-bg 4s;
     & .loading-spinner
     {
-        font-size: 150px;
+        font-size: 5rem;
+        color: $colour-primary;
         animation :loading-spinner 2s infinite;
+        @include tablette {
+            font-size: 10rem;
+        }
+        @include desktop {
+            font-size: 15rem;
+        }
     }
 }
 @keyframes loading-spinner {

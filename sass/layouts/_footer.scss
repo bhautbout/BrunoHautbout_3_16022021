@@ -7,13 +7,14 @@
     flex-wrap: wrap;
     line-height: 1.5rem;
     color: white;
-
+    
+    }
         h2 {
         font-size: 1rem;
         width: 100%;
         font-style: italic;
         font-family: 'Shrikhand', cursive;
-        }
+        
         h3 {
             font-family: 'Roboto', sans-serif;
             font-size: 1rem;
@@ -36,5 +37,16 @@
                 {
                     padding-right: 8px;
                 }
+        }
+        .contact
+        {
+            &a:link
+            {
+                color: white;
+            }
+            &a:visited
+            {
+                color: $colour-secondary;
+            }
         }
 }
