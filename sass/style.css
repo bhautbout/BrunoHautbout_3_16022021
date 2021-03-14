@@ -55,7 +55,7 @@
 }
 
 .entree h2 {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   margin: 0;
 }
 
@@ -146,7 +146,7 @@
 }
 
 .plats h2 {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   margin: 0;
 }
 
@@ -219,7 +219,7 @@
 }
 
 .desserts h2 {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   margin: 0;
 }
 
@@ -254,7 +254,10 @@
       -ms-flex-align: center;
           align-items: center;
   font-family: "Shrikhand", cursive;
-  font-size: 1.2rem;
+}
+
+.header h1 {
+  font-size: 1.8rem;
 }
 
 .footer {
@@ -739,8 +742,8 @@ a:visited {
 }
 
 .recherche h2 {
-  font-weight: 400;
-  font-size: 1.2rem;
+  font-weight: 300;
+  font-size: 1.1rem;
 }
 
 .fonctionnement {
