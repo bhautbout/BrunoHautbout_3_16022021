@@ -259,16 +259,34 @@
   margin: 0;
 }
 
+@media (min-width: 992px) and (max-width: 1400px) {
+  .desserts h2 {
+    font-size: 1.3rem;
+  }
+}
+
 .desserts h3 {
   font-size: 0.8rem;
   margin: 0;
   font-weight: 300;
 }
 
+@media (min-width: 992px) and (max-width: 1400px) {
+  .desserts h3 {
+    font-size: 1rem;
+  }
+}
+
 .desserts h4 {
   font-size: 0.8rem;
   font-weight: bold;
   margin: 0;
+}
+
+@media (min-width: 992px) and (max-width: 1400px) {
+  .desserts h4 {
+    font-size: 1rem;
+  }
 }
 
 .header {
