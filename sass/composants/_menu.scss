@@ -5,8 +5,10 @@
     font-weight: 100;
     margin: 10px;
     display: flex;
-    animation:apparition 5s;
-    transition: opacity 1000ms;
+    animation-name: apparition;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    opacity :0;
     &__detail
     {
         width: 90%;
@@ -65,9 +67,11 @@
 @keyframes apparition
 {
     from {
+        transform: translateY(-10px);
         opacity:0;
     }
     to {
+        transform: translateY(0);
         opacity:1;
     }
 }
@@ -78,8 +82,10 @@
     font-weight: 100;
     margin: 10px;
     display: flex;
-    animation:apparition 18s;
-    transition: opacity 10ms;
+    animation-name: apparition;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    opacity :0;
     &__detail
     {
         width: 90%;
@@ -142,8 +148,10 @@
     font-weight: 100;
     margin: 10px;
     display: flex;
-    animation:apparition 25s;
-    transition: opacity 1000ms;
+    animation-name: apparition;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    opacity :0;
     &__detail
     {
         width: 90%;

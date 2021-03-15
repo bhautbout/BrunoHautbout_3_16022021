@@ -6,10 +6,13 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-animation: apparition 5s;
-          animation: apparition 5s;
-  -webkit-transition: opacity 1000ms;
-  transition: opacity 1000ms;
+  -webkit-animation-name: apparition;
+          animation-name: apparition;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  opacity: 0;
 }
 
 .entree__detail {
@@ -91,18 +94,26 @@
 
 @-webkit-keyframes apparition {
   from {
+    -webkit-transform: translateY(-10px);
+            transform: translateY(-10px);
     opacity: 0;
   }
   to {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
     opacity: 1;
   }
 }
 
 @keyframes apparition {
   from {
+    -webkit-transform: translateY(-10px);
+            transform: translateY(-10px);
     opacity: 0;
   }
   to {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
     opacity: 1;
   }
 }
@@ -115,10 +126,13 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-animation: apparition 18s;
-          animation: apparition 18s;
-  -webkit-transition: opacity 10ms;
-  transition: opacity 10ms;
+  -webkit-animation-name: apparition;
+          animation-name: apparition;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  opacity: 0;
 }
 
 .plats__detail {
@@ -206,10 +220,13 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-animation: apparition 25s;
-          animation: apparition 25s;
-  -webkit-transition: opacity 1000ms;
-  transition: opacity 1000ms;
+  -webkit-animation-name: apparition;
+          animation-name: apparition;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  opacity: 0;
 }
 
 .desserts__detail {
