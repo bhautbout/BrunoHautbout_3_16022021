@@ -1,5 +1,6 @@
 @import "utils/variables";
 @import "utils/breakpoints";
+@import "utils/mixins";
 @import "utils/media";
 @import "composants/menu";
 @import "layouts/header";
@@ -8,4 +9,3 @@
 @import "composants/boutons";
 @import "composants/titre";
 @import "layouts/sections";
-@import "utils/mixins";

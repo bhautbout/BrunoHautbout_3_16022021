@@ -39,6 +39,10 @@
             @include tablette{
                 font-size: 1.3rem;
             }
+            @include desktop
+            {
+                font-size: 1.3rem;
+            }
         }
         .fas {
             font-size: 1.1rem;
