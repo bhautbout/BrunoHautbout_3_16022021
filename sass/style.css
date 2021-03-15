@@ -62,7 +62,7 @@
   margin: 0;
 }
 
-@media (min-width: 992px) and (max-width: 1400px) {
+@media (min-width: 992px) and (max-width: 2000px) {
   .entree h2 {
     font-size: 1.3rem;
   }
@@ -74,7 +74,7 @@
   font-weight: 300;
 }
 
-@media (min-width: 992px) and (max-width: 1400px) {
+@media (min-width: 992px) and (max-width: 2000px) {
   .entree h3 {
     font-size: 1rem;
   }
@@ -86,7 +86,7 @@
   margin: 0;
 }
 
-@media (min-width: 992px) and (max-width: 1400px) {
+@media (min-width: 992px) and (max-width: 2000px) {
   .entree h4 {
     font-size: 1rem;
   }
@@ -94,8 +94,8 @@
 
 @-webkit-keyframes apparition {
   from {
-    -webkit-transform: translateY(-10px);
-            transform: translateY(-10px);
+    -webkit-transform: translateY(-20px);
+            transform: translateY(-20px);
     opacity: 0;
   }
   to {
@@ -107,8 +107,8 @@
 
 @keyframes apparition {
   from {
-    -webkit-transform: translateY(-10px);
-            transform: translateY(-10px);
+    -webkit-transform: translateY(-20px);
+            transform: translateY(-20px);
     opacity: 0;
   }
   to {
@@ -182,7 +182,7 @@
   margin: 0;
 }
 
-@media (min-width: 992px) and (max-width: 1400px) {
+@media (min-width: 992px) and (max-width: 2000px) {
   .plats h2 {
     font-size: 1.3rem;
   }
@@ -194,7 +194,7 @@
   font-weight: 300;
 }
 
-@media (min-width: 992px) and (max-width: 1400px) {
+@media (min-width: 992px) and (max-width: 2000px) {
   .plats h3 {
     font-size: 1rem;
   }
@@ -206,7 +206,7 @@
   margin: 0;
 }
 
-@media (min-width: 992px) and (max-width: 1400px) {
+@media (min-width: 992px) and (max-width: 2000px) {
   .plats h4 {
     font-size: 1rem;
   }
@@ -276,7 +276,7 @@
   margin: 0;
 }
 
-@media (min-width: 992px) and (max-width: 1400px) {
+@media (min-width: 992px) and (max-width: 2000px) {
   .desserts h2 {
     font-size: 1.3rem;
   }
@@ -288,7 +288,7 @@
   font-weight: 300;
 }
 
-@media (min-width: 992px) and (max-width: 1400px) {
+@media (min-width: 992px) and (max-width: 2000px) {
   .desserts h3 {
     font-size: 1rem;
   }
@@ -300,7 +300,7 @@
   margin: 0;
 }
 
-@media (min-width: 992px) and (max-width: 1400px) {
+@media (min-width: 992px) and (max-width: 2000px) {
   .desserts h4 {
     font-size: 1rem;
   }
@@ -337,7 +337,7 @@
   }
 }
 
-@media (min-width: 992px) and (max-width: 1400px) {
+@media (min-width: 992px) and (max-width: 2000px) {
   .header h1 {
     font-size: 3rem;
   }
@@ -366,7 +366,7 @@
   font-family: 'Shrikhand', cursive;
 }
 
-@media (min-width: 992px) and (max-width: 1400px) {
+@media (min-width: 992px) and (max-width: 2000px) {
   .footer h2 {
     font-size: 1.5rem;
   }
@@ -500,7 +500,7 @@ a:visited {
   }
 }
 
-@media (min-width: 992px) and (max-width: 1400px) {
+@media (min-width: 992px) and (max-width: 2000px) {
   .localisation h2 {
     font-size: 1.3rem;
   }
@@ -566,18 +566,21 @@ a:visited {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  font-size: 0.8rem;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
 }
 
-.commander-bouton h2 {
-  font-size: 1rem;
-}
-
 @media (min-width: 768px) and (max-width: 992px) {
   .commander-bouton h2 {
     font-size: 1.4rem;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 2000px) {
+  .commander-bouton h2 {
+    font-size: 1.4rem !important;
   }
 }
 
@@ -712,7 +715,7 @@ a:visited {
   }
 }
 
-@media (min-width: 992px) and (max-width: 1400px) {
+@media (min-width: 992px) and (max-width: 2000px) {
   .loading-bg .loading-spinner {
     font-size: 15rem;
   }
@@ -789,7 +792,7 @@ a:visited {
   font-size: 1.5rem;
 }
 
-@media (min-width: 992px) and (max-width: 1400px) {
+@media (min-width: 992px) and (max-width: 2000px) {
   .restaurant-nom__titre {
     font-size: 1.8rem;
   }
@@ -801,6 +804,12 @@ a:visited {
   margin-bottom: 10px;
   font-size: 1.5rem;
   font-weight: bold;
+}
+
+@media (min-width: 992px) and (max-width: 2000px) {
+  .titre {
+    width: 100%;
+  }
 }
 
 .restaurant-menu {
@@ -829,6 +838,20 @@ a:visited {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+@media (min-width: 992px) and (max-width: 2000px) {
+  .liste-restaurants {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
 }
 
 .recherche {
@@ -864,7 +887,7 @@ a:visited {
   padding-left: 10px;
 }
 
-@media (min-width: 992px) and (max-width: 1400px) {
+@media (min-width: 992px) and (max-width: 2000px) {
   .recherche h2 {
     font-size: 1.3rem;
   }
@@ -925,7 +948,7 @@ a:visited {
   margin: 0;
 }
 
-@media (min-width: 992px) and (max-width: 1400px) {
+@media (min-width: 992px) and (max-width: 2000px) {
   .choix h2 {
     font-size: 1.5rem;
   }
@@ -958,7 +981,7 @@ a:visited {
   color: gray;
 }
 
-@media (min-width: 992px) and (max-width: 1400px) {
+@media (min-width: 992px) and (max-width: 2000px) {
   .nchoix-texte i {
     font-size: 1.9rem;
   }
@@ -970,6 +993,12 @@ a:visited {
   margin-bottom: 20px;
   border-radius: 15px;
   background-color: white;
+}
+
+@media (min-width: 992px) and (max-width: 2000px) {
+  .restaurant {
+    width: 45%;
+  }
 }
 
 .restaurant img {
@@ -1028,7 +1057,7 @@ figcaption h3 {
   width: 50px;
 }
 
-@media (min-width: 992px) and (max-width: 1400px) {
+@media (min-width: 992px) and (max-width: 2000px) {
   #titre-desserts h2 {
     font-size: 1.5rem;
   }
@@ -1053,7 +1082,7 @@ figcaption h3 {
   width: 50px;
 }
 
-@media (min-width: 992px) and (max-width: 1400px) {
+@media (min-width: 992px) and (max-width: 2000px) {
   .restaurant-entree__titre h2 {
     font-size: 1.5rem;
   }
@@ -1084,7 +1113,7 @@ figcaption h3 {
   width: 50px;
 }
 
-@media (min-width: 992px) and (max-width: 1400px) {
+@media (min-width: 992px) and (max-width: 2000px) {
   #titre-plats h2 {
     font-size: 1.5rem;
   }

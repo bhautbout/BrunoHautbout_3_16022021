@@ -90,11 +90,16 @@
     padding-right: 70px;
     padding-left: 70px;
     display: flex;
+    font-size: 0.8rem;
     justify-content: center;
         h2 {
-            font-size: 1rem;
-            @include tablette {
+            @include tablette
+            {
                 font-size: 1.4rem;
+            }
+            @include desktop
+            {
+                font-size: 1.4rem !important;
             }
         }
 }
