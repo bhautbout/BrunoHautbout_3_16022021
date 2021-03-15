@@ -168,16 +168,34 @@
   margin: 0;
 }
 
+@media (min-width: 992px) and (max-width: 1400px) {
+  .plats h2 {
+    font-size: 1.3rem;
+  }
+}
+
 .plats h3 {
   font-size: 0.8rem;
   margin: 0;
   font-weight: 300;
 }
 
+@media (min-width: 992px) and (max-width: 1400px) {
+  .plats h3 {
+    font-size: 1rem;
+  }
+}
+
 .plats h4 {
   font-size: 0.8rem;
   font-weight: bold;
   margin: 0;
+}
+
+@media (min-width: 992px) and (max-width: 1400px) {
+  .plats h4 {
+    font-size: 1rem;
+  }
 }
 
 .desserts {
