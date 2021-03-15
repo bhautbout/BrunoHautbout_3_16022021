@@ -705,6 +705,12 @@ a:visited {
   font-size: 1.5rem;
 }
 
+@media (min-width: 992px) and (max-width: 1400px) {
+  .restaurant-nom__titre {
+    font-size: 1.8rem;
+  }
+}
+
 .titre {
   font-family: 'Roboto', sans-serif;
   margin-left: 20px;
