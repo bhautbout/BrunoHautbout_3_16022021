@@ -47,6 +47,10 @@
         font-size: 0.8rem;
         margin: 0;
         font-weight: 300;
+        @include desktop
+        {
+            font-size: 1rem;
+        }
     }
     h4 {
         font-size: 0.8rem;

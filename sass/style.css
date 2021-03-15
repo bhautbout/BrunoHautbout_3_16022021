@@ -71,6 +71,12 @@
   font-weight: 300;
 }
 
+@media (min-width: 992px) and (max-width: 1400px) {
+  .entree h3 {
+    font-size: 1rem;
+  }
+}
+
 .entree h4 {
   font-size: 0.8rem;
   font-weight: bold;
