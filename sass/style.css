@@ -257,7 +257,19 @@
 }
 
 .header h1 {
-  font-size: 2.5rem;
+  font-size: 2rem;
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .header h1 {
+    font-size: 2.5rem;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1400px) {
+  .header h1 {
+    font-size: 3rem;
+  }
 }
 
 .footer {
@@ -806,7 +818,7 @@ a:visited {
 }
 
 .choix h2 {
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-family: 'Roboto', sans-serif;
   margin: 0;
 }
@@ -836,6 +848,12 @@ a:visited {
   margin-right: 20px;
   font-size: 1.5rem;
   color: gray;
+}
+
+@media (min-width: 992px) and (max-width: 1400px) {
+  .nchoix-texte i {
+    font-size: 1.9rem;
+  }
 }
 
 .restaurant {
