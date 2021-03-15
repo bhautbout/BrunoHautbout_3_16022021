@@ -993,4 +993,10 @@ figcaption h3 {
   border-bottom: 3px solid #99E2D0;
   width: 50px;
 }
+
+@media (min-width: 992px) and (max-width: 1400px) {
+  #titre-plats h2 {
+    font-size: 1.5rem;
+  }
+}
 /*# sourceMappingURL=style.css.map */
