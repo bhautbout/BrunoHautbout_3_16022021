@@ -190,6 +190,10 @@ figcaption
         font-weight: lighter;
         border-bottom: 3px solid $colour-tertiary;
         width: 50px;
+        @include desktop
+        {
+            font-size: 1.5rem;
+        }
     }
 }
 .fa-heart

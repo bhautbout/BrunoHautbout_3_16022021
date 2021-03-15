@@ -963,6 +963,12 @@ figcaption h3 {
   width: 50px;
 }
 
+@media (min-width: 992px) and (max-width: 1400px) {
+  .restaurant-entree__titre h2 {
+    font-size: 1.5rem;
+  }
+}
+
 .fa-heart {
   font-size: 1.5rem;
 }
