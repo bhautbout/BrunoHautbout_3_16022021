@@ -768,6 +768,12 @@ a:visited {
   padding-left: 10px;
 }
 
+@media (min-width: 992px) and (max-width: 1400px) {
+  .recherche h2 {
+    font-size: 1.3rem;
+  }
+}
+
 .fonctionnement {
   padding-top: 30px;
   display: -webkit-box;

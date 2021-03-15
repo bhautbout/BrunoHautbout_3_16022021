@@ -37,6 +37,10 @@
         font-size: 1.1rem;
         padding-right: 10px;
         padding-left: 10px;
+        @include desktop
+        {
+            font-size: 1.3rem;
+        }
     }
 }
 .fonctionnement
