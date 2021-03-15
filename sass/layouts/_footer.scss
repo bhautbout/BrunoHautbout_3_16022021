@@ -1,12 +1,12 @@
 .footer
 {
     background-color: #353535;
+    color: white;
     padding-left: 30px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     line-height: 1.5rem;
-    color: white;
 
         h2 {
         font-size: 1rem;
@@ -20,6 +20,7 @@
         }
         h3 {
             font-family: 'Roboto', sans-serif;
+            color: white;
             font-size: 1rem;
             margin: 0;
         }
@@ -40,5 +41,16 @@
                 {
                     padding-right: 8px;
                 }
+        }
+        a {
+            color: white;
+        }
+        &a:link
+        {
+            text-decoration: none !important;
+            color: white !important;
+        }
+        &a:visited{
+            color: $colour-primary !important;
         }
 }
