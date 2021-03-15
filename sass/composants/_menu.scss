@@ -56,6 +56,10 @@
         font-size: 0.8rem;
         font-weight: bold;
         margin: 0;
+        @include desktop
+        {
+            font-size: 1rem;
+        }
     }
 }
 @keyframes apparition
