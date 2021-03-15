@@ -829,6 +829,12 @@ a:visited {
   margin: 0;
 }
 
+@media (min-width: 992px) and (max-width: 1400px) {
+  .choix h2 {
+    font-size: 1.5rem;
+  }
+}
+
 .choix:hover {
   background-color: RGBA(147, 86, 220, 0.15);
 }
